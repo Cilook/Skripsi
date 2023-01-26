@@ -29,9 +29,6 @@
   ],
   "author": "",
   "license": "MIT",
-  "bugs": {
-    "url": ""
-  },
   "homepage": "https://github.com/Cilook/WeddingKita/blob/main/client/public/index.html",
   "dependencies": {
     "@fontsource/poppins": "^4.5.9",
