@@ -10,7 +10,7 @@
     "dev:client": "cross-env NODE_ENV=development webpack-dev-server  --config webpack/webpack.dev.js",
     "dev:server": "nodemon",
     "dev": "npm-run-all --parallel dev:*",
-    "start": "cross-env NODE_ENV=production node server/index.js",
+    "start": "npm install cross-env cross-env NODE_ENV=production node server/index.js",
     "postinstall": "npm run build",
     "seed:db": "node server/utils/seed.js",
     "test": "echo \"Error: no test specified\" && exit 1"
